@@ -35,7 +35,9 @@ This repository is licensed under the MIT license
 # Credits
 The folowing resources were used to build this app:
 
-class activities tutor(David Hammond)
+class activities 
+
+tutor(David Hammond)
 
 # Contact
 If there are any questions about this application you can reach me at
