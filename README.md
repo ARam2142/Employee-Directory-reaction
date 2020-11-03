@@ -1,7 +1,7 @@
 # Employee-Directory-reaction
 
 # Background
-In this application you can view all the employees of your company. This should have the functionality to sort and filter by category. I will work on it when I understand react better and learn to code the logic required. This was very challenging.
+In this application you can view all the employees of your company. You can view a certain employee by name, age, email, and phone number. This should have the functionality to sort and filter by category. I will work on it when I understand react better and learn to code the logic required. This was very challenging.
 
 # UserStory
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
