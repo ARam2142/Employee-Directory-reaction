@@ -1,12 +1,12 @@
 # Employee-Directory-reaction
 
-Background
-In this application you can view all the employees of your company. This should have the functionality to sort and filter by category. I will work on it when I understand react better and learn to code the logic required.
+# Background
+In this application you can view all the employees of your company. This should have the functionality to sort and filter by category. I will work on it when I understand react better and learn to code the logic required. This was very challenging.
 
-UserStory
+# UserStory
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
-Technologies
+# Technologies
 Javascript
 
 HTML
@@ -15,10 +15,12 @@ CSS
 
 React JS
 
-Screenshots
-Screen Shot 2020-11-01 at 10 30 42 PM
+# Screenshots
 
-Usage
+![Screen Shot 2020-11-01 at 10 30 42 PM](https://user-images.githubusercontent.com/65634748/97945534-d18c7180-1d55-11eb-9934-360998a90fb7.png)
+
+
+# Usage
 feel free to fork from my file and download. Use at your own risk. For all ages.
 
 # Test
