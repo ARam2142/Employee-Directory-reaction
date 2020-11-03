@@ -23,10 +23,10 @@ React JS
 
 
 # Usage
-feel free to fork from my file and download. Use at your own risk. For all ages.
+Feel free to fork from my file and download. Use at your own risk. For all ages.
 
 # Test
-This application was done without any testing. Dont ruin it.
+This application was done without any testing. Dont ruin it. It is still a work in progress.
 
 # License
 This repository is licensed under the MIT license
@@ -37,6 +37,8 @@ The folowing resources were used to build this app:
 class activities 
 
 tutor(David Hammond)
+
+inspiration from classmates code
 
 # Contact
 If there are any questions about this application you can reach me at
