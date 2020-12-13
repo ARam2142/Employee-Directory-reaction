@@ -6,6 +6,7 @@ import TableBody from '@material-ui/core/TableBody';
 import Table from '@material-ui/core/Table';
 import TableContainer from '@material-ui/core/TableContainer';
 import { API } from '../../utils/API';
+//import TableSortLabel from '@material-ui/core/TableSortLabel';
 
 class EmployeeTable extends Component {
     state = {
@@ -39,7 +40,17 @@ class EmployeeTable extends Component {
             })
     }
 
-    render() {
+    renderSort() {
+        const newRows = Array.from(this.state.rows);
+        // renderSort
+        // set STate
+    }
+
+    renderFiltering(){
+        
+    }
+
+    render(props) {
         return (
             <TableContainer className="table-style">
                 <Table classname="table" aria-label="employee table">
