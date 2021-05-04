@@ -3,10 +3,10 @@ import React from "react";
 
 function Searchbox() {
     return (
-        <form class="form-inline justify-content-center">
-            <label class="sr-only" for="inlineFormInputName2">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Search"></input>
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        <form className="form-inline justify-content-center">
+            <label className="sr-only" htmlFor="inlineFormInputName2">Name</label>
+            <input type="text" className="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Search"></input>
+            <button type="submit" className="btn btn-primary mb-2">Submit</button>
         </form>
     )
 }

@@ -1,16 +1,18 @@
 import React from "react";
-import Hero from "./components/Hero";
-import Search from "./components/Search";
-import Table from "./components/Table/TableOutline";
-//import { employeeTable } from "./components/Table"
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Searchbox from "./components/searchbox/Searchbox";
+import EmployeeTable from "./components/table/EmployeeTable";
+//import Data from "./components/data/EmployeeData";
 
 const App = () => {
     return (
-        <div className="container-fluid">
-        <Hero />
-           <Search />
-           <Table/>
-       </div>
+        <div>
+            <Header />
+            <Searchbox />
+            <EmployeeTable />
+            <Footer />
+        </div>
     );
 }
 
