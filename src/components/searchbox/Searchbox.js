@@ -1,8 +1,6 @@
-import React from "react";
+import React from 'react';
 
-//import "./styles.css";
-
-function Searchbox(props) {
+function SearchBox(props) {
     return (
         <form
             className="form-inline justify-content-center">
@@ -12,10 +10,12 @@ function Searchbox(props) {
                 className="form-control mb-2 mr-sm-2"
                 id="inlineFormInputName2"
                 placeholder="Search"
+                name="search"
                 onChange={props.handleInputChange}
             />
         </form>
+
     )
 }
 
-export default Searchbox;
+export default SearchBox;

@@ -9,13 +9,10 @@ In this application you can view all the employees of your company. You can view
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 # Technologies
-Javascript
-
-HTML
-
-CSS
-
-React JS
+- Javascript
+- HTML
+- CSS
+- React JS
 
 # Screenshots
 
