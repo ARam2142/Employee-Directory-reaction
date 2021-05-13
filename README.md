@@ -3,7 +3,7 @@
 # Employee-Directory-reaction
 
 # Background
-In this application you can view all the employees of your company. You can view a certain employee by name, age, email, and phone number. This should have the functionality to sort and filter by category. I will work on it when I understand react better and learn to code the logic required. This was very challenging.
+In this application you can view all the employees of your company. You can view a certain employee by name, age, email, and phone number. The app will allow you(user) to sort by columns and search typing in the searchbar. This was a challenging assignment from bootcamp. I wouldn't have gotten it done without help from classmates and support from the web.
 
 # UserStory
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
@@ -12,11 +12,12 @@ As a user, I want to be able to view my entire employee directory at once so tha
 - Javascript
 - HTML
 - CSS
-- React JS
+- React
 
 # Screenshots
 
-![Screen Shot 2020-11-01 at 10 30 42 PM](https://user-images.githubusercontent.com/65634748/97945534-d18c7180-1d55-11eb-9934-360998a90fb7.png)
+![Screen Shot 2021-05-12 at 11 01 24 PM](https://user-images.githubusercontent.com/65634748/118072102-2d742a80-b377-11eb-9ef1-9336404f3dc1.png)
+
 
 
 # Usage
@@ -35,7 +36,7 @@ class activities
 
 tutor(David Hammond)
 
-inspiration from classmates code
+classmates code
 
 # Contact
 If there are any questions about this application you can reach me at
