@@ -3,9 +3,8 @@ import SearchBox from "../SearchBox/SearchBox";
 import { API } from '../../utils/API';
 import { util } from '../../utils/util';
 import EmployeeTable from "../EmployeeTable/EmployeeTable";
-//debugger
 class EmployeeData extends Component {
-    
+
     state = {
         rows: [],
         rowsLoaded: [],
@@ -38,9 +37,9 @@ class EmployeeData extends Component {
     }
 
     handleInputChange = e => {
-    const value = e.target.value;
-    const name = e.target.name;
-    
+        const value = e.target.value;
+        const name = e.target.name;
+
         this.setState({
             [name]: value
         }, () => {
@@ -61,7 +60,7 @@ class EmployeeData extends Component {
     };
 
     //code taken from ASheikh-io and modified to my style
-    sortHandler = (col, order) => { 
+    sortHandler = (col, order) => {
         let dataList = [...this.state.rows].sort(util.compareValues(col, order));
         let renderedList = order === 'asc' ? 'desc' : 'asc';
         this.setState({
@@ -69,8 +68,6 @@ class EmployeeData extends Component {
             orderBy: col,
             order: renderedList
         })
-       
-
     }
 
     render() {
@@ -85,7 +82,6 @@ class EmployeeData extends Component {
                 />
             </div>
         );
-
     }
 }
 
