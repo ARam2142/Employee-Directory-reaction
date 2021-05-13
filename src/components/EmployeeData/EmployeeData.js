@@ -38,7 +38,6 @@ class EmployeeData extends Component {
     }
 
     handleInputChange = e => {
-    // e.preventDefault()
     const value = e.target.value;
     const name = e.target.name;
     
@@ -63,7 +62,6 @@ class EmployeeData extends Component {
 
     //code taken from ASheikh-io and modified to my style
     sortHandler = (col, order) => { 
-        //debugger
         let dataList = [...this.state.rows].sort(util.compareValues(col, order));
         let renderedList = order === 'asc' ? 'desc' : 'asc';
         this.setState({
