@@ -9,30 +9,35 @@ import TableSortLabel from '@material-ui/core/TableSortLabel';
 import Paper from '@material-ui/core/Paper';
 
 const EmployeeTable = (props) => {
-debugger
+//recieved help from mentor with doing tablesort label attributes
     return (
         <TableContainer className="table-style" component={Paper}>
             <Table className="table" aria-label="Employee Table">
                 {/* The header info for employee info */}
                 <TableHead>
                     <TableRow>
-                        <TableCell align="left">ProfilePicture
-                            <TableSortLabel active={props.orderBy === "ProfilePic"} onClick={() => props.sortHandler('ProfilePic', props.order)} direction={props.order}></TableSortLabel>
+                        <TableCell align="left">Profile Picture
+                            <TableSortLabel active={props.orderBy === "ProfilePic"} onClick={() => props.sortHandler('img', props.order)} direction={props.order}></TableSortLabel>
                         </TableCell>
-                        <TableCell align="right">FirstName
-                            <TableSortLabel active={props.orderBy === 'FirstName'} onClick={()=> props.sortHandler('FirstName', props.order)} direction={props.order}></TableSortLabel>
+                        <TableCell align="center">First Name
+                            <TableSortLabel active={props.orderBy === 'firstName'} onClick={()=> props.sortHandler('firstName', props.order)} direction={props.order}></TableSortLabel>
                                     
                         </TableCell>
-                        <TableCell align="center">LastName
-                                    {/* <button onclick={props.onSortChange}><i class="fas fa-arrow-up"></i></button> */}
+                        <TableCell align="center">Last Name
+                            <TableSortLabel active={props.orderBy === 'lastName'} onClick={()=> props.sortHandler('lastName', props.order)} direction={props.order}></TableSortLabel>
+
                         </TableCell>
                         <TableCell align="center">Age
+                            <TableSortLabel active={props.orderBy === 'age'} onClick={()=> props.sortHandler('age', props.order)} direction={props.order}></TableSortLabel>
+
                         </TableCell>
                         <TableCell align="center">Email
-                                    {/* <TableSortLabel></TableSortLabel> */}
+                            <TableSortLabel active={props.orderBy === 'age'} onClick={()=> props.sortHandler('email', props.order)} direction={props.order}></TableSortLabel>
+
                         </TableCell>
-                        <TableCell align="center">PhoneNumber
-                                    {/* <TableSortLabel /> */}
+                        <TableCell align="center">Phone Number
+                            <TableSortLabel active={props.orderBy === 'phonenumber'} onClick={()=> props.sortHandler('phone', props.order)} direction={props.order}></TableSortLabel>
+
                         </TableCell>
                     </TableRow>
                 </TableHead>

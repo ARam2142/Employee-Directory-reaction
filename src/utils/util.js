@@ -11,15 +11,16 @@ const util = {
         return searchedEmployee;
     },
 
-    compareValues(col, order = "asc") {
+    // object sorting function from https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/
+    compareValues(key, order = "asc") {
         //Use toUpperCase() to ignore character casing
         return function innerSort(a, b) {
-            if (!a.hasOwnProperty(col) || !b.hasOwnProperty(col)) {
+            if (!a.hasOwnProperty(key) || !b.hasOwnProperty(key)) {
                 return 0;
             }
 
-            const valA = (typeof a[col] === 'string') ? a[col].toUpperCase() : a[col];
-            const valB = (typeof b[col] === 'string') ? b[col].toUpperCase() : b[col];
+            const valA = (typeof a[key] === 'string') ? a[key].toUpperCase() : a[key];
+            const valB = (typeof b[key] === 'string') ? b[key].toUpperCase() : b[key];
 
             let comparison = 0;
             if (valA > valB) {

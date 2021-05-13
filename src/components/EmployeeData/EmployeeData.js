@@ -37,9 +37,6 @@ class EmployeeData extends Component {
             .catch(err => console.log(err));
     }
 
-    //get user input
-    //get table to render when tabs are clicked
-    //get user to submit change
     handleInputChange = e => {
     // e.preventDefault()
     const value = e.target.value;
@@ -71,25 +68,10 @@ class EmployeeData extends Component {
         let renderedList = order === 'asc' ? 'desc' : 'asc';
         this.setState({
             rows: dataList,
-            orderBy: renderedList,
-            order: col
+            orderBy: col,
+            order: renderedList
         })
-        // //console.log(empsArr);
-        // if (this.state.order) {
-        //     empsArr.sort((a, b) => (a.firstName > b.firstName) ? 1 : -1);
-        //     this.setState({
-        //         ...this.state,
-        //         rows: empsArr,
-        //         order: 'desc'
-        //     });
-        // } else {
-        //     empsArr.sort((a, b) => (a.firstName < b.firstName) ? 1 : -1);
-        //     this.setState({
-        //         ...this.state,
-        //         rows: empsArr,
-        //         order: 'asc'
-        //     })
-        // };
+       
 
     }
 
